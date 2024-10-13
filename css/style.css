@@ -1,0 +1,249 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-image: url(../img/download.jpg);
+    background-size: cover;
+    height: 900px;
+}
+.header-content div :nth-of-type(2){
+    display: flex;
+    align-items: center;
+}
+.header-content div :nth-last-of-type(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-content img{
+    height: 109px;
+    width: 192px;
+}
+.header-content a{
+    color: aliceblue;
+    margin-right: 31px;
+    font-size: 23px;
+    font-family: fangsong;
+    font-weight: 600;
+}
+.header-content input {
+    background-color: #ff5b0d;
+    border: none;
+    color: aliceblue;
+    font-weight: 900;
+    font-family: emoji;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-size: 19px;
+}
+.header-content h2{
+    background-color: #1fb99c73;
+    border: none;
+    color: aliceblue;
+    font-family: monospace;
+    line-height: 1.7;
+    font-weight: 600;
+    font-size: 45px;
+    padding: 30px 72px 116px 29px;
+    border-radius: 36px;
+    /* margin: auto; */
+    /* display: block; */
+    margin-top: 71px;
+}
+@media only screen and (max-width:992px) and (min-width:768px)
+ {
+  .header-content  input{
+    padding: 4px 10px;
+    margin-left: 200px;
+    }
+}
+@media only screen and (max-width:767px)
+{
+    .header-content img{
+        height: 100px;
+        width: 140px;
+    }
+    .header-content a{
+font-size: 17px;
+font-family: fangsong;
+    font-weight: 600;
+    margin-right:15px ;
+    }
+.header-content input {
+    padding: 2px 5px;
+    margin-left: 200px;
+
+}
+.header-content h2 {
+    font-size: 38px;
+}
+}
+/* start school section */
+.school-header h4{
+    color: #0202028c;
+    font-size: 42px;
+    font-family: cursive;
+    text-align: center;
+    margin-top: 51px;
+}
+.school-header hr {
+    border: none;
+    padding: 4px;
+    background-color: #df810c;
+    width: 260px;
+    border-radius: 11px;
+}
+.school-header img{
+    width: 100%;
+}
+.school-header div :nth-of-type(3){
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.school-header span{
+    color: #1fb99c73;
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 600;
+}
+.school-header p{
+    font-weight: 500;
+    font-family: cursive;
+    line-height: 1.6;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+/* end school section */
+/* start touch section */
+.touch-header{
+    background-image: url(../img/Path\ 62.png) , url(../img/i-love-my-job-so-much_329181-2178.png);
+background-size: cover;
+height: 900px;
+}
+.touch-header img{
+    width: 100%;
+    height: 240px;
+    margin-bottom: 12px;
+}
+.content {
+    background-color: aliceblue;
+    border-radius: 11px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+    padding: 15px;
+    height: 552px;
+}
+.touch-header h5 {
+    color: #1fb99c73;
+    font-family: auto;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+   .touch-header p{
+    font-weight: 700;
+    font-family: auto;
+    text-align: center;
+    line-height: 2;
+    font-size: 18px;
+   }
+   .touch-header h2 {
+    color: aliceblue;
+    text-align: center;
+    margin-top: 86px;
+    margin-bottom: 83px;
+   }
+   @media only screen and (max-width:992px){
+    .touch-header img {
+        height: 170px;
+    }
+.touch-header p{
+    line-height: 1.2;
+    
+}  
+}
+@media only screen and (max-width:767px)
+{
+    .content{
+        margin-top: 15px;
+ height: 350px;
+    }
+    .touch-header img {
+        height: 120px;
+    }
+.touch-header p{
+    line-height: 1.2;
+}
+.touch-header{
+    height: 1022px;
+}
+ 
+}
+@media only screen and (max-width:575px)
+{
+  .touch-header{
+    height: 2000px;
+  }
+    .content
+    {
+        width: 70%;
+        margin: auto;
+margin-top: 15px;
+height: 410px;
+   }
+.content img {
+    height: 220px;
+}
+}
+/* end touch section */
+/* start dentesr section */
+.dentesr img{
+    width: 100%;
+} 
+/* end dentesr section */
+/* start footer section */
+.footer{
+    background-color: #28ada7;
+    height: 350px;
+    border: none;
+    border-radius: 220px 220px 0px 0px;
+} 
+
+.right h4{
+    color: #ff8b68;
+    font-family: auto;
+    font-weight: 600;
+    margin-top: 37px;
+}
+.right a{
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    margin-top: 12px;
+}
+.left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .left span{
+    color: aliceblue;
+    font-size: 34px;
+    font-family: auto;
+    font-weight: 600;
+    margin-top: 31px;
+  }
+  .left p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: auto;
+  }
+/* end footer section */
